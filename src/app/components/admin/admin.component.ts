@@ -8,4 +8,8 @@ import { Component } from "@angular/core";
     </div>
   `
 })
-export class AdminComponent {}
+export class AdminComponent {
+  ngOnInit() {
+    console.log("hello");
+  }
+}
